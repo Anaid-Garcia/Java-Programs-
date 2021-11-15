@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<question value="Is it chocolate?">
+	<answer value="yes">
+		<question value="Does it have nuts?">
+			<answer value="yes">
+				<question value="Does it have Almonds?">
+					<answer value="yes">
+						<thing>Almonds Joy</thing>
+					</answer>
+					<answer value="no">
+						<question value="Does it come in a bar form?">
+							<answer value="yes">
+									<question value="Does it have a smilar name to a famous baseball player?">
+										<answer value="yes">
+											<thing>Baby Ruth</thing>
+										</answer>
+										<answer value="no">
+											<thing>Snickers</thing>
+										</answer>
+									</question>
+							</answer>
+							<answer value="no">
+								<thing>Reese's peanut butter cups</thing>
+							</answer>
+						</question>
+						</answer>
+				</question>
+			</answer>
+			<answer value="no">
+				<question value="Does it come with multiple bars in the package?">
+					<answer value="yes">
+						<question value="Does it have caramel?">
+							<answer value="yes">
+								<thing>Twix</thing>
+							</answer>
+							<answer value="no">
+								<thing>Kit Kat</thing>
+							</answer>
+						</question>
+					</answer>
+					<answer value="no">
+						<question value="Does it have a filling?">
+							<answer value="yes">
+								<question value="Is it named after something in space?">
+									<answer value="yes">
+										<thing>Milky Way</thing>
+									</answer>
+									<answer value="no">
+												<thing>3 Mucketers</thing>
+									</answer>
+								</question>
+							</answer>
+							<answer value="no">
+								<question value="Does it come in a bar?">
+									<answer value="yes">
+										<question value="Does have little crunchy things in it?">
+											<answer value="yes">
+												<thing>Chrunch Bar</thing>
+											</answer>
+											<answer value="no">
+												<thing>Hersheys Bar</thing>
+											</answer>
+										</question>
+									</answer>
+									<answer value="no">
+										<thing>M and M's</thing>
+									</answer>
+								</question>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+		</question>
+	</answer>
+	<answer value="no">
+		<question value="Does it come in one long roll?">
+			<answer value="yes">
+				<thing>Fuit By The Foot</thing>
+			</answer>
+			<answer value="no">
+				<question value="Does it come in a tube?">
+					<answer value="yes">
+						<thing>Push Pop</thing>
+					</answer>
+					<answer value="no">
+						<question value="Is their slogan taste the rainbow?">
+							<answer value="yes">
+								<thing>Skittles</thing>
+							</answer>
+							<answer value="no">
+								<question value="Does it start with a J?">
+									<answer value="yes">
+										<thing>Jolly Ranchers</thing>
+									</answer>
+									<answer value="no">
+										<thing>StarBust</thing>
+									</answer>
+								</question>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+		</question>
+	</answer>
+</question>
